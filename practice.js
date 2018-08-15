@@ -53,7 +53,7 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 
 function looper(family){
   for(var i = 0; i < family.length; i++){
-    return alert(i * family.length)
+    alert(family[i])
   }
 }
 
@@ -70,9 +70,11 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
   Loop through the given array backwards alerting every item in the array starting at the end.\
 */
 
-//function reversedLooper(letters){
-
-//}
+function reversedLooper(letters){
+ for(var i = letters.length - 1; i > letters.length; i--){
+   return alert()
+ }
+}
 
 
 
